@@ -1,0 +1,326 @@
+body {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(0, 0, 0);
+  padding-left: 12px;
+  padding-top: 4px;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(0, 0, 0);
+  color: white; 
+  cursor: pointer; 
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+  background-color: #565656;
+  color: rgb(255, 255, 255);
+}
+
+.HomeContainer{
+  max-width: 80%;
+  padding-left: 94px;
+  padding-top: 140px;
+}
+.Image1 {
+  width: 180px;
+  height: 221px;
+  float: left;
+  margin-left: 0px;
+  margin-top: 40px;
+}
+.CodingImg {
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-left: 30px;
+  margin-top: -50px;
+}
+
+.CodingImg2{
+  width: 15%;
+  height: auto;
+  float: left;
+  padding-left: 30px;
+}
+.CodingImg3{
+  width: 10%;
+  height: auto;
+  float: left;
+  padding-left: 60px;
+}
+
+.CodingImg4{
+  width: 20%;
+  height: auto;
+  float: left;
+  padding-left: 40px;
+
+}
+
+.Image3{
+  width: 360px;
+  height: 480px;
+  padding-left: 250px;
+}
+.Image4{
+  width: 360px;
+  height: 480px;
+  float: left;
+}
+.Image5{
+  width: 50%;
+  height: 50%;
+  float: right;
+  padding-right: 7px;
+}
+.Image6{
+  width: 20%;
+  height: 20%;
+}
+.Image7{
+  width: 36%;
+  height: 36%;
+}
+.ImageHome{
+    width: 336px;
+    height: 448px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -5px;
+}
+.HomeText {
+  font-family: Merriweather, serif;
+  font-size: 100px;
+  padding-left: 400px;
+  margin-top: 50px;
+  margin-bottom: -70px;
+  color: black;
+}
+.HomeTextA{
+  font-size: 45px;
+  padding-left: 400px;
+  margin-top: 10px;
+  margin-bottom: -60px;
+}
+.HomeTextSmall {
+  font-size: 20px;
+  padding-left: 400px;
+  margin-top: 70px;
+  color: black;
+}
+.CodingText{
+  font-size: 45px;
+  padding-left: 30px;
+  margin-top: -50px;
+  color:black
+}
+.CodingText2{
+  font-size: 45px;
+  padding-left: 30px;
+  margin-top: -1px;
+  color:black
+}
+.CodingTextSmall2{
+  font-size: 25px;
+  padding-left: 30px;
+  margin-top: -20px;
+}
+.CodingTextSmall{
+  font-size: 25px;
+  padding-left: 260px;
+  margin-top: -45px;
+  color: black;
+  max-width: 65%;
+}
+.CodingTextSmallM{
+  font-size: 25px;
+  max-width: 65%;
+  margin-top: 0px;
+  padding-left: 350px;
+}
+
+.CodingTextSmall3{
+  font-size: 25px;
+  max-width: 65%;
+  padding-top: 30px;
+  margin-left: 250px;
+}
+.CodingTextSmall4{
+  font-size: 25px;
+  max-width: 65%;
+  padding-top: 10px;
+  margin-left: 250px;
+}
+.CodingTextSmall1{
+  font-size: 25px;
+  max-width: 65%;
+  margin-top: 0px;
+  margin-left: 250px;
+}
+
+.SplitText{
+  font-size: 70px;
+  font-family: Merriweather, serif;
+  margin-top: -10px;
+  padding-left: 25px;
+}
+.CertTextLarge{
+  font-size: 70px;
+  font-family: 'Brush Script MT', cursive;
+  letter-spacing: 3px;
+  margin-top: -10px;
+}
+
+.CertTextSmall{
+  font-size: 25px;
+  padding-left: 30px;
+  max-width: 90%;
+}
+.CCATextLarge{
+  font-size: 70px;
+  font-family: 'Brush Script MT', cursive;
+  letter-spacing: 3px;
+  margin-top: -10px;
+}
+.CCAText{
+  font-size: 25px;
+  max-width: 85%;
+  padding-left: 30px;
+}
+.CCAText2{
+  font-size: 25px;
+  max-width: 35%;
+  padding-left: 740px;
+}
+.CCAText3{
+  font-size: 25px;
+  max-width: 43%;
+  padding-left: 30px;
+}
+
+.VIATextSmall{
+  font-size: 25px;
+  padding-left: 30px;
+  max-width: 90%;
+}
+.VIAIMG{
+  width: 35%;
+  height: auto;
+  float: right;
+  padding-right: 30px;
+}
+.VIAIMG2{
+  width: 25%;
+  height: auto;
+  float: left;
+  padding-left: 30px;
+}
+.SciTalent{
+  font-size: 25px;
+}
+.SciTalentImg{
+  width: 30%;
+  height: 30%;
+}
+
+.smolText{
+  font-size: 12px;
+  font-style: italic;
+  padding-left: 28px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%; 
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 43px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding-top: 30px;
+}
+.LetterAnchor{
+  color: transparent;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.LineUnder {
+  width: 100%;
+  height: 1px;
+  background-color: #000000;
+  margin-top: -60px;
+}
+.atTheTop {
+  margin-top: -50px;
+}
+.ButtonA {
+  background-color: #4CAF50;
+  border: none;
+  color: white; 
+  padding: 1px 15px; 
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  border-radius: 100px; 
+  cursor: pointer; 
+  margin-left: 10px;
+}
+
+.ButtonB{
+  background-color: #4CAF50;
+  border: none;
+  color: white; 
+  padding: 1px 15px; 
+  text-align: center;
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  border-radius: 100px; 
+  cursor: pointer; 
+  margin-left: 50px;
+}
+
+.ButtonA:hover {
+  background-color: #ff0000;
+}
+
+.ButtonB:hover{
+  background-color: red;
+}
+
+
+  
