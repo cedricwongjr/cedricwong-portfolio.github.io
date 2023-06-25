@@ -67,18 +67,20 @@ body {
   height: auto;
   float: left;
   padding-left: 40px;
+  
 
 }
 
 .Image3{
-  width: 360px;
-  height: 480px;
-  padding-left: 250px;
+  width: 25%;
+  height: auto;
+  padding-left: 15%;
 }
 .Image4{
   width: 360px;
   height: 480px;
   float: left;
+  margin-top: -5;
 }
 .Image5{
   width: 50%;
@@ -95,25 +97,25 @@ body {
   height: 36%;
 }
 .ImageHome{
-    width: 336px;
-    height: 448px;
+    width: 350px;
+    height: auto;
     float: left;
     margin-left: 30px;
-    margin-top: -5px;
+    margin-top: 10px;
 }
 .HomeText {
   font-family: Merriweather, serif;
   font-size: 100px;
   padding-left: 400px;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: -70px;
   color: black;
 }
 .HomeTextA{
   font-size: 45px;
   padding-left: 400px;
-  margin-top: 10px;
-  margin-bottom: -60px;
+  margin-top: -7px;
+  margin-bottom: 0px;
 }
 .HomeTextSmall {
   font-size: 20px;
@@ -121,6 +123,13 @@ body {
   margin-top: 70px;
   color: black;
 }
+.HomeTextSmall2 {
+  font-size: 20px;
+  padding-left: 400px;
+  margin-top: 0px;
+  color: black;
+}
+
 .CodingText{
   font-size: 45px;
   padding-left: 30px;
@@ -199,11 +208,13 @@ body {
   font-size: 25px;
   max-width: 85%;
   padding-left: 30px;
+  margin-bottom: -5px;
 }
 .CCAText2{
   font-size: 25px;
   max-width: 35%;
-  padding-left: 740px;
+  padding-left: 760px;
+  padding-bottom: 15px;
 }
 .CCAText3{
   font-size: 25px;
@@ -214,6 +225,11 @@ body {
 .VIATextSmall{
   font-size: 25px;
   padding-left: 30px;
+  max-width: 57%;
+}
+.VIATextSmall2{
+  font-size: 25px;
+  padding-left: 415px;
   max-width: 90%;
 }
 .VIAIMG{
@@ -230,14 +246,24 @@ body {
 }
 .SciTalent{
   font-size: 25px;
+  padding-left: 30px;
+  max-width: 90%;
 }
 .SciTalentImg{
   width: 30%;
   height: 30%;
 }
+.SciTalentImg1{
+  width: 30%;
+  height: 30%;
+  padding-left: 30px;
+}
+.Video{
+ padding-left: 30px;
+}
 
 .smolText{
-  font-size: 12px;
+  font-size: 13px;
   font-style: italic;
   padding-left: 28px;
 }
@@ -254,7 +280,10 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 43px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 4%;
+  padding-left: 4%;
   text-decoration: none;
 }
 
