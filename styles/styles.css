@@ -105,16 +105,16 @@ body {
 }
 .HomeText {
   font-family: Merriweather, serif;
-  font-size: 100px;
+  font-size: 80px;
   padding-left: 400px;
   margin-top: 0px;
-  margin-bottom: -70px;
+  margin-bottom: -65px;
   color: black;
 }
 .HomeTextA{
   font-size: 45px;
   padding-left: 400px;
-  margin-top: -7px;
+  margin-top: 5px;
   margin-bottom: 0px;
 }
 .HomeTextSmall {
