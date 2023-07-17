@@ -2,8 +2,10 @@ body {
   background-color: white;
   font-family: "Open Sans", sans-serif;
   color: rgb(0, 0, 0);
-  padding-left: 12px;
+  padding-left: 0px;
   padding-top: 4px;
+  margin-left: 0px;
+  text-align: justify;
 }
 #myBtn {
   display: none;
@@ -165,7 +167,7 @@ body {
   font-size: 25px;
   max-width: 65%;
   padding-top: 30px;
-  margin-left: 250px;
+  margin-left: 270px;
 }
 .CodingTextSmall4{
   font-size: 25px;
@@ -178,6 +180,58 @@ body {
   max-width: 65%;
   margin-top: 0px;
   margin-left: 250px;
+}
+.articleText{
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  max-width: 100%;
+  margin-left: 20px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-decoration: none;  
+  cursor: pointer; 
+}
+.articleText a{
+  text-decoration: none !important;
+}
+.articleText:hover{
+  color:rgb(138, 138, 138);
+  cursor: pointer;
+}
+.articleText2{
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  max-width: 95%;
+  margin-left: 20px;
+  text-align: justify;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  text-decoration: none;  
+  cursor: pointer; 
+}
+.articleText2 a{
+  text-decoration: none !important;
+}
+.articleText2:hover{
+  color:rgb(138, 138, 138);
+  cursor: pointer;
+}
+
+.articleText3{
+font-size: 35px;
+padding-left: 20px;
+max-width: 80%;
+}
+
+.articleText4{
+font-size: 25px;
+padding-left: 20px;
+max-width: 95%;
 }
 
 .SplitText{
@@ -210,12 +264,26 @@ body {
   padding-left: 30px;
   margin-bottom: -5px;
 }
+.WPText{
+  font-size: 25px;
+  max-width: 93%;
+  padding-left: 30px;
+  margin-bottom: -5px;
+}
 .CCAText2{
   font-size: 25px;
   max-width: 35%;
   padding-left: 760px;
   padding-bottom: 15px;
 }
+
+.CCAText0{
+  font-size: 25px;
+  max-width: 35%;
+  padding-left: 760px;
+  padding-bottom: 15px;
+}
+
 .CCAText3{
   font-size: 25px;
   max-width: 43%;
@@ -225,24 +293,26 @@ body {
 .VIATextSmall{
   font-size: 25px;
   padding-left: 30px;
-  max-width: 57%;
+  max-width: 62%;
 }
 .VIATextSmall2{
   font-size: 25px;
-  padding-left: 415px;
-  max-width: 90%;
+  padding-left: 490px;
+  max-width: 65%;
+  
 }
 .VIAIMG{
-  width: 35%;
+  width: 30%;
   height: auto;
   float: right;
   padding-right: 30px;
 }
 .VIAIMG2{
-  width: 25%;
+  width: 30%;
   height: auto;
   float: left;
   padding-left: 30px;
+  padding-top: 100px;
 }
 .SciTalent{
   font-size: 25px;
@@ -258,8 +328,14 @@ body {
   height: 30%;
   padding-left: 30px;
 }
+.SCIText{
+  font-size: 25px;
+  max-width: 90%;
+  padding-left: 30px;
+  margin-bottom: -5px;
+}
 .Video{
- padding-left: 30px;
+ padding-left: 250px;
 }
 
 .smolText{
@@ -273,6 +349,9 @@ body {
   position: fixed;
   top: 0;
   width: 100%; 
+  z-index: 1;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .navbar a {
@@ -282,15 +361,22 @@ body {
   text-align: center;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
-  padding-right: 4%;
-  padding-left: 4%;
+  padding-right: 2%;
+  padding-left: 2%;
   text-decoration: none;
+  
 }
 
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
+
+.Ending{
+  padding-left: 600px;
+
+}
+
 
 .main {
   padding-top: 30px;
