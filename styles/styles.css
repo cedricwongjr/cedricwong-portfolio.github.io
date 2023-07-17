@@ -350,7 +350,7 @@ max-width: 95%;
   top: 0;
   width: 100%; 
   z-index: 1;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
 }
 
@@ -373,7 +373,7 @@ max-width: 95%;
 }
 
 .Ending{
-  padding-left: 600px;
+  padding-left: 43%;
 
 }
 
